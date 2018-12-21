@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265391840665",
+    "firebase_url": "https://ecommerce-a8f26.firebaseio.com",
+    "project_id": "ecommerce-a8f26",
+    "storage_bucket": "ecommerce-a8f26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265391840665:android:a2d69f0aa6b08d72",
+        "android_client_info": {
+          "package_name": "com.example.gayat.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265391840665-obsbkbk2hh98e93rd9ah6rm2bni2ppd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gayat.ecommerce",
+            "certificate_hash": "9f04830b62787fea1cc2bfec950245683b441561"
+          }
+        },
+        {
+          "client_id": "265391840665-9h20rvpv3p16g35gvu80nrqv3oo7n3tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAryAhh-Hn-GUV7h0hRR84i7D3u0Lw4mus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265391840665-9h20rvpv3p16g35gvu80nrqv3oo7n3tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
