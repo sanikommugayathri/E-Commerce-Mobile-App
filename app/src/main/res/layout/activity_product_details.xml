@@ -63,16 +63,16 @@
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/add_product_to_cart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="6dp"
-        android:backgroundTint="@android:color/white"
-        android:src="@drawable/nav_cart"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="15dp"
-        />
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/add_product_to_cart"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:elevation="6dp"-->
+        <!--android:backgroundTint="@android:color/white"-->
+        <!--android:src="@drawable/nav_cart"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="15dp"-->
+        <!--/> -->
 
 </RelativeLayout>
