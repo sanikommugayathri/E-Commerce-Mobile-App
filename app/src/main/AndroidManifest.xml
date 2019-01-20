@@ -32,7 +32,8 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
         <activity android:name=".ProductDetailsActivity" />
-        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity"></activity>
     </application>
 
 </manifest>

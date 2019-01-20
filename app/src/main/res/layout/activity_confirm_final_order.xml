@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFinalOrderActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please give your Shipment Details"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/shipment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Name" />
+
+    <EditText
+        android:id="@+id/shipment_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipment_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:hint="Your Phone Number"/>
+
+    <EditText
+        android:id="@+id/shipment_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipment_phonenumber"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Address"/>
+
+    <EditText
+        android:id="@+id/shipment_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shipment_address"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your City"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Confirm"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>
