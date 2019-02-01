@@ -190,9 +190,10 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(HomeActivity.this, CartActivity.class);
             startActivity(intent);
         }
-        else if (id == R.id.nav_orders)
+        else if (id == R.id.nav_search)
         {
-
+            Intent intent = new Intent(HomeActivity.this, CartActivity.class);
+            startActivity(intent);
         }
         else if (id == R.id.nav_categories)
         {
